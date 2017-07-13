@@ -41,7 +41,7 @@ public class DatabaseConnector {
             // Could not connect to the database
             Logger.err("Could not connect to the database");
             //Also show why and exit
-            e.printStackTrace();
+            //e.printStackTrace();
             if (Constants.DEBUG_MODE) {
                 System.exit(1);
             }
